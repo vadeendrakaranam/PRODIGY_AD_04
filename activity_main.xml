@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!-- First Row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button00"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="fill"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:backgroundTint="#2E7D32"
+            android:onClick="onCellClicked"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button01"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="fill"
+            android:layout_weight="1"
+            android:background="@android:color/darker_gray"
+            android:backgroundTint="#C62828"
+            android:onClick="onCellClicked"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button02"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="fill"
+            android:layout_weight="1"
+            android:background="@android:color/darker_gray"
+            android:backgroundTint="#B9F6CA"
+            android:onClick="onCellClicked"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Second Row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button10"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="fill"
+            android:layout_weight="1"
+            android:background="@android:color/darker_gray"
+            android:backgroundTint="@color/white"
+            android:onClick="onCellClicked"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button11"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="fill"
+            android:layout_weight="1"
+            android:background="#00695C"
+            android:backgroundTint="#0277BD"
+            android:onClick="onCellClicked"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button12"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="fill"
+            android:layout_weight="1"
+            android:background="@android:color/darker_gray"
+            android:backgroundTint="#F9A825"
+            android:onClick="onCellClicked"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Third Row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button20"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="fill"
+            android:layout_weight="1"
+            android:background="@android:color/darker_gray"
+            android:onClick="onCellClicked"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button21"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="fill"
+            android:layout_weight="1"
+            android:background="@android:color/darker_gray"
+            android:backgroundTint="#FF9E80"
+            android:onClick="onCellClicked"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button22"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="fill"
+            android:layout_weight="1"
+            android:background="#F9A825"
+            android:backgroundTint="#80D8FF"
+            android:onClick="onCellClicked"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/resetButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#A7FFEB"
+        android:onClick="resetGame"
+        android:text="RESET--TIC TAC TOE"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
